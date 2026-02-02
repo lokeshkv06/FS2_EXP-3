@@ -1,0 +1,52 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page container */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+/* Page headings */
+.page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* All links */
+a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background-color: #222;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+a:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+
+/* Back link spacing */
+.back-link {
+  margin-top: 20px;
+}
