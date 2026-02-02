@@ -1,16 +1,37 @@
-# React + Vite
+# React Router Navigation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates **client-side routing** in React using **React Router DOM**.  
+It is a simple Single Page Application (SPA) with multiple pages and navigation without page reload.
+<img width="1919" height="969" alt="Home_page" src="https://github.com/user-attachments/assets/15c10480-a690-48cc-9f10-c73873b2ab7c" />
+<img width="1919" height="970" alt="Contact_page" src="https://github.com/user-attachments/assets/f1d8eb26-f5cc-4f68-b573-13c03fc5b2d5" />
+<img width="1919" height="970" alt="About_page" src="https://github.com/user-attachments/assets/2d4ead6c-8aee-44e0-a42b-2b3e43cd5b3c" />
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 Objective
 
-## React Compiler
+To understand and implement **React Router** for navigating between different pages in a React application.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔹 Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Home
+- Contact
+- About
+
+---
+
+## 🔹 Technologies Used
+
+- React
+- React Router DOM
+- CSS
+
+---
+
+## 🔹 How to Run
+
+```bash
+npm install
+npm run dev
