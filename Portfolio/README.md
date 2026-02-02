@@ -1,16 +1,46 @@
-# React + Vite
+# Profile Dashboard App – React Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates **client-side routing** in React using **React Router DOM**.  
+It includes a profile page with an image and navigation to a dashboard page.
 
-Currently, two official plugins are available:
+---
+<img width="1919" height="969" alt="Screenshot 2026-02-02 104858" src="https://github.com/user-attachments/assets/60b855d8-0c65-4cde-9ee9-f7e90b26043d" />
+<img width="1918" height="968" alt="Screenshot 2026-02-02 104850" src="https://github.com/user-attachments/assets/b7627694-fb24-4c70-a5bc-cee915b32267" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🔹 Objective
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To implement page navigation in a React application using **React Router**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔹 Pages
+
+- Profile Page  
+- Dashboard Page  
+
+---
+
+## 🔹 Features
+
+- Profile image loading using assets
+- Navigation using Link component
+- Client-side routing without page reload
+- Simple inline styling
+
+---
+
+## 🔹 Technologies Used
+
+- React
+- React Router DOM
+- JavaScript
+- CSS (inline styles)
+
+---
+
+## 🔹 How to Run
+
+```bash
+npm install
+npm run dev
